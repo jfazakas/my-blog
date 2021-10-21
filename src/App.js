@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -17,8 +16,7 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-        <hr/>
-        <div>
+        <div id="page-body">
           <Switch>
             <Route path="/" component={HomePage} exact/>
             <Route path="/about" component={AboutPage} />
